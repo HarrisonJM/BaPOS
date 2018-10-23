@@ -51,5 +51,7 @@ Module.symvers
 Mkfile.old
 dkms.conf
 
-# starkl
+#other files 
 starkl*
+linux-4*
+licensed.tgz
