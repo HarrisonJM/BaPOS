@@ -1,0 +1,821 @@
+    1  sudo apt-get update 
+    2  clear
+    3  sudo apt-get upgrade
+    4  clear
+    5  ping www.google.com
+    6  clear
+    7  sudo apt-get install nmap
+    8  nmap -l
+    9  nmap -sP 192.164.11.1/100
+   10  nmap -sP 192.164.11.1/32
+   11  nmap -sP 192.164.11.1/24
+   12  clear
+   13  ifconfig
+   14  nmcli
+   15  nmap -sP 192.164.0.1/24
+   16  nmap -sP 192.164.0.255/24
+   17  ifconfig
+   18  nmcli
+   19  telnet 192.168.0.13
+   20  telnet 192.168.0.15
+   21  nmap -sP 192.164.0.2
+   22  nmap -sP 192.164.0.13
+   23  nmap -sP 192.164.0.12
+   24  ifconfig
+   25  sudo apt-get install net-tools
+   26  clear
+   27  sudo apt-get install net-tools
+   28  clear
+   29  ifconfig 
+   30  clear
+   31  ls
+   32  git clone https://github.com/HarrisonJM/BaPOS
+   33  sudo apt install git
+   34  git clone https://github.com/HarrisonJM/BaPOS
+   35  ls
+   36  cd BaPOS/
+   37  ls
+   38  mkdir files
+   39  lsusb
+   40  lsblk
+   41  ls /media/
+   42  ls /media/dansteer/
+   43  ls /media/dansteer/blah/
+   44  ls /media/dansteer/
+   45  ls /media/dansteer/UBUNTU\ 18_0/
+   46  cp /media/dansteer/UBUNTU\ 18_0/mtdblock0.backup.img.gz files/
+   47  cp /media/dansteer/UBUNTU\ 18_0/mtdblock1.backup.img.gz files/
+   48  ls files/
+   49  git add files/
+   50  git status
+   51  clear
+   52  git commit -m "Added backup images"
+   53  git config --global user.name "Dan Steer"
+   54  git config --global user.email "dan.steer19@gmail.com"
+   55  git init
+   56  git commit -m "Added backup images"
+   57  git push origin master
+   58  lsusb
+   59  lsblk
+   60  ls
+   61  cd BaPOS/
+   62  ls
+   63  git pull
+   64  ls
+   65  more FR
+   66  more README.md 
+   67  ls
+   68  cd files/
+   69  ls 
+   70  lsblk
+   71  ls /media/dansteer/
+   72  ls /media/dansteer/blah/
+   73  mkdir /media/dansteer/SDCARD
+   74  sudo mkdir /media/dansteer/SDCARD
+   75  mount /media/dansteer/SDCARD /dev/mmcblk0
+   76  sudomount /media/dansteer/SDCARD /dev/mmcblk0
+   77  sudo mount /media/dansteer/SDCARD /dev/mmcblk0
+   78  sudo mount /media/dansteer/SDCARD /dev/mmcblk0p1 
+   79  clear
+   80  sudo mount /media/dansteer/SDCARD /dev/mmcblk0p1 
+   81  sudo mount /dev/mmcblk0 /media/dansteer/SDCARD/
+   82  sudo mount /dev/mmcblk0p1 /media/dansteer/SDCARD/
+   83  lsblk
+   84  sudo umount /dev/mmcblk0p1 /media/dansteer/SDCARD/
+   85  sudo umount  /media/dansteer/SDCARD/
+   86  lsblk
+   87  clear
+   88  sudo dd if=mtdblock0.backup.img of=/dev/mmcblk0p1 bs=1m
+   89  sudo dd if=mtdblock0.backup.img of=/dev/mmcblk0p1 bs=1M
+   90  sudo dd if=mtdblock1.backup.img of=/dev/mmcblk0p2 bs=1M
+   91  lsblk
+   92  sudo mount /dev/mmcblk0p1 /media/dansteer/SDCARD/
+   93  lsblk
+   94  clear
+   95  fdisk
+   96  clear
+   97  history 
+   98  clear
+   99  ls
+  100  ls files/
+  101  ls -al
+  102  cd files/
+  103  ls -al
+  104  ssh root@192.168.1.75
+  105  ssh root@192.1.133
+  106  ssh root@192.168.1.133
+  107  ping 192.168.1.133
+  108  ssh 192.168.1.133
+  109  clear
+  110  ;s
+  111  ls -al
+  112  sudo subl .ssh
+  113  sudo apt install sublime-text
+  114  wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add 
+  115  echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
+  116  sudo apt-get update
+  117  clear
+  118  sudo apt-get install sublime-text
+  119  clear
+  120  sudo subl .ssh
+  121  more .ssh/config 
+  122  ls -al .ssh/config 
+  123  sudo chmod 400 ~/.ssh/config 
+  124  ssh 192.168.
+  125  ssh 192.168.1.133
+  126  clear
+  127  ssh 192.168.1.133
+  128  ssh-keygen -f "/home/dansteer/.ssh/known_hosts" -R "192.168.1.133"
+  129  ssh 192.168.1.133
+  130  ssh root@192.168.1.133
+  131  ping 192.168.133
+  132  ping 192.168.1.133
+  133  ssh root@192.168.1.133
+  134  ssh-keygen -f "/home/dansteer/.ssh/known_hosts" -R "192.168.1.133"
+  135  ssh root@192.168.1.133
+  136  ssh-keygen -f "/home/dansteer/.ssh/known_hosts" -R "192.168.1.133"
+  137  ping 192.168.1.133
+  138  ssh root@192.168.1.133
+  139  clear
+  140  apt install binwalk u-boot-tools
+  141  sudo apt install binwalk u-boot-tools
+  142  clear
+  143  sudo apt install which
+  144  whereis which
+  145  clear
+  146  whereis sed
+  147  clear
+  148  whereis binutils
+  149  gcc
+  150  sudo apt install binutils
+  151  clear
+  152  whereis binutils
+  153  clear
+  154  sudo apt install build-essential
+  155  clear
+  156  whereis patch
+  157  clear
+  158  whereis gzip
+  159  whereis bzip2
+  160  clear
+  161  where per;
+  162  where perl
+  163  whereis perl
+  164  clear
+  165  whereis tar
+  166  clear
+  167  df
+  168  whereis cpio
+  169  clear
+  170  python -v
+  171  python3 -v
+  172  clear
+  173  whereis python3
+  174  clear
+  175  whereis unzip
+  176  clear
+  177  whereis rsync
+  178  clear
+  179  whereis file
+  180  clear
+  181  whereis bc
+  182  clear
+  183  whereis wget
+  184  clear
+  185  ~whereis glib2
+  186  whereis glib2
+  187  clear
+  188  sudo apt install glib2
+  189  sudo apt install glib2
+  190  sudo apt install gtk2
+  191  sudo apt install glade2
+  192  clear
+  193  sudo apt install ncurses5
+  194  clear
+  195  sudo apt-get install libncurses5-dev libncursesw5-dev
+  196  sudo apt-get upgrade
+  197  sudo apt-get update
+  198  clear
+  199  sudo apt-get upgrade
+  200  clear
+  201  whereis libncurses
+  202  clear
+  203  sudo apt install qt4
+  204  sudo apt install qt4-default 
+  205  clear
+  206  ping 192.168.1.133
+  207  clear
+  208  ssh-keygen -f "/home/dansteer/.ssh/known_hosts" -R "192.168.1.133"
+  209  ssh root@192.168.1.133
+  210  cd Downloads/
+  211  ls
+  212  rm ECG\ Requirements.docx 
+  213  ls
+  214  clear
+  215  ls
+  216  rm 6dc46e7d8a09ac8b89856eaed09072384afca0b0c1e9fca2e98c8ffa4aad0e7d.sh 
+  217  ls
+  218  clear
+  219  ls
+  220  ls -al
+  221  clear
+  222  ls
+  223  tar -xvf ./starkl-4kopen-v1.0.0.tar.bz2 ./
+  224  ls
+  225  clear
+  226  ls
+  227  cd starkl-4kopen-v1.0.0/
+  228  ls
+  229  make outputs/starkl-b2264-default/images
+  230  ls sh
+  231  whereis sh
+  232  make clean
+  233  clear
+  234  ls
+  235  more README 
+  236  ls outputs/
+  237  more buildroot/
+  238  ls buildroot/
+  239  ls
+  240  clear
+  241  ls
+  242  cd ..
+  243  rm -r starkl-4kopen-v1.0.0
+  244  tar -xvf ./starkl-4kopen-v1.0.0.tar.bz2 ./
+  245  clear
+  246  ls
+  247  cp starkl-4kopen-v1.0.0 ..
+  248  cp starkl-4kopen-v1.0.0.tar.bz2 .
+  249  cp starkl-4kopen-v1.0.0.tar.bz2 ..
+  250  ls
+  251  cd starkl-4kopen-v1.0.0/
+  252  ls
+  253  ls outputs/
+  254  ls
+  255  cd outputs/starkl-b2264-
+  256  cd outputs/starkl-b2264-default/
+  257  ls
+  258  ls images/
+  259  cd ..
+  260  ls
+  261  cp -r starkl-b2264-default /home/dansteer/starkl-4kopen-default
+  262  clear
+  263  cd ..
+  264  ls
+  265  make outputs/starkl-b2264-default/images
+  266  sudo make outputs/starkl-b2264-default/images
+  267  clear
+  268  sudo make outputs/starkl-b2264-default/images
+  269  make outputs/starkl-b2264-default/images
+  270  m4 --version
+  271  sudo apt install m4
+  272  clear
+  273  make outputs/starkl-b2264-default/images
+  274  sudo apt install python
+  275  clear
+  276  make outputs/starkl-b2264-default/images
+  277  cd ..
+  278  ls
+  279  tar -xvf intltool-0.35.5.tar.bz2 
+  280  ls
+  281  cd intltool-0.35.5/
+  282  ls
+  283  more README 
+  284  clear
+  285  ls
+  286  ./install-sh 
+  287  ./configure --prefix=/usr/ && make
+  288  make check
+  289  clear
+  290  sudo make install && install -v -m644 -D doc/I18N-HOWTO \ /usr/share/doc/intltool-0.35.5/I18N-HOWTO
+  291  ls /usr/share/
+  292  ls /usr/share/doc/intltool-debian/
+  293  clear
+  294  whereis intltool
+  295  ls -al /usr/share/intltool
+  296  clear
+  297  cd Downloads/starkl-4kopen-v1.0.0/
+  298  make outputs/starkl-b2264-default/images
+  299  sudo apt-get update
+  300  sudo apt-get upgrade
+  301  clear
+  302  make outputs/starkl-b2264-default/images
+  303  cd ..
+  304  ls
+  305  tar -xf intltool-0.50.2.tar.gz 
+  306  cd intltool-0.
+  307  cd intltool-0.50.2/
+  308  ls
+  309  ./configure --prefix=/usr && make
+  310  make check
+  311  c;ear
+  312  cle
+  313  make install && install -v -m644 -D doc/I18N-HOWTO     /usr/share/doc/intltool-0.50.2/I18N-HOWTO
+  314  clear
+  315  sudo make install && install -v -m644 -D doc/I18N-HOWTO \ /usr/share/doc/intltool-0.50.2/I18N-HOWTO
+  316  ls /usr/share/doc/intltool-debian/
+  317  ls -al /usr/share/intltool
+  318  cd Downloads/starkl-4kopen-v1.0.0/
+  319  make outputs/starkl-b2264-default/images
+  320  clear
+  321  sudo apt-get install intltool
+  322  make outputs/starkl-b2264-default/images
+  323  cd starkl-4kopen-default/
+  324  make outputs/starkl-b2264-default/images
+  325  ls
+  326  cd .. ls
+  327  cd ..
+  328  ls
+  329  cd Downloads/starkl-4kopen-v1.0.0/
+  330  make outputs/starkl-b2264-default/images
+  331  sudo apt-get update
+  332  sudo apt-get upgrade
+  333  make outputs/starkl-b2264-default/images
+  334  ls
+  335  ls -al
+  336  subl GNUmakefile 
+  337  whereis intltool
+  338  ls /usr/share/intltool
+  339  ls
+  340  ls configs/
+  341  clear
+  342  ls
+  343  find . -name "makefile"
+  344  more outputs/starkl-b2264-default/buildroot/build/freetype-2.7.1/builds/amiga/makefile
+  345  clear
+  346  find . -name "makefile"
+  347  subl outputs/starkl-b2264-default/buildroot/build/dropbear-2017.75/libtommath/pics/makefile 
+  348  subl outputs/starkl-b2264-default/buildroot/build/dropbear-2017.75/libtommath/etc/makefile
+  349  subl outputs/starkl-b2264-default/buildroot/build/dropbear-2017.75/libtomcrypt/testprof/makefile
+  350  subl outputs/starkl-b2264-default/buildroot/build/libpng-1.6.29/contrib/pngminim/decoder/makefile 
+  351  subl outputs/starkl-b2264-default/buildroot/build/libpng-1.6.29/contrib/pngminim/preader/
+  352  subl outputs/starkl-b2264-default/buildroot/build/libpng-1.6.29/contrib/pngminim/preader/makefile 
+  353  subl outputs/starkl-b2264-default/buildroot/build/libpng-1.6.29/contrib/pngminim/encoder/makefile 
+  354  subl outputs/starkl-b2264-default/buildroot/build/host-libpng-1.6.29/contrib/pngminim/decoder/makefile 
+  355  subl outputs/starkl-b2264-default/buildroot/build/host-libpng-1.6.29/contrib/pngminim/preader/makefile 
+  356  subl outputs/starkl-b2264-default/buildroot/build/host-libpng-1.6.29/contrib/pngminim/encoder/makefile 
+  357  clear
+  358  intltool -v
+  359  sudo apt-get install intltool
+  360  make outputs/starkl-b2264-default/images
+  361  subl outputs/starkl-b2264-default/buildroot/build/libsoup-2.56.0/.stamp_configured
+  362  find . -name "package" -type d
+  363  ls outputs/starkl-b2264-default/buildroot/build/
+  364  clear
+  365  cd ..
+  366  ls
+  367  cp starkl-4kopen-v1.0.0.tar.bz2 ../Documents/
+  368  cd ../Documents/
+  369  tar -xvf starkl-4kopen-v1.0.0.tar.bz2 
+  370  cd starkl-4kopen-v1.0.0/
+  371  ls
+  372  clear
+  373  make outputs/starkl-b2264-default/images
+  374  sudo apt-get install intltool
+  375  sudo apt-get update
+  376  sudo apt-get upgrade 
+  377  subl outputs/starkl-b2264-default/buildroot/host/usr/bin/intltool-update 
+  378  sudo apt-get remove intltool
+  379  ls /usr/share/intltool
+  380  whereis intltool
+  381  ls -al /usr/share/intltool
+  382  rm -r /usr/share/intltool
+  383  ls -al /usr/share/intltool
+  384  sudo rm -r /usr/share/intltool
+  385  ls -al /usr/share/intltool
+  386  clear
+  387  cd ../../Downloads/
+  388  ls
+  389  tar -xf intltool_0.35.0.orig.tar.gz 
+  390  cd intltool-0.35.0/
+  391  ls
+  392  ./configure --prefix=/usr && make
+  393  clear
+  394  su root 
+  395  su root
+  396  clear
+  397  make check
+  398  su root
+  399  clear
+  400  sudo make install && install -v -m644 -D doc/I18N-HOWTO \ /usr/share/doc/intltool-0.35.0/I18N-HOWTO
+  401  clear
+  402  whereis intltool
+  403  ls /usr/share/intltool
+  404  ls -al /usr/share/intltool
+  405  clear
+  406  cd Documents/starkl-4kopen-v1.0.0/
+  407  make outputs/starkl-b2264-default/images
+  408  ls outputs/starkl-b2264-default/buildroot/
+  409  ls outputs/starkl-b2264-default/buildroot/build/
+  410  clear
+  411  sudo apt-get update
+  412  sudo apt-get upgrade 
+  413  whereis intltool
+  414  clear
+  415  ls
+  416  mkdir attempt_3
+  417  cp starkl-4kopen-v1.0.0.tar.bz2 attempt_3/
+  418  cd attempt_3/
+  419  ls
+  420  tar -xf starkl-4kopen-v1.0.0.tar.bz2 s
+  421  ls 
+  422  tar -xf starkl-4kopen-v1.0.0.tar.bz2
+  423  ls
+  424  cd starkl-4kopen-v1.0.0/
+  425  make outputs/starkl-b2264-default/images
+  426  make -f outputs/starkl-b2264-default/images
+  427  make outputs/starkl-b2264-default/images -f
+  428  clear
+  429  ls
+  430  cd outputs/starkl-b2264-default/buildroot/host/usr/bin/
+  431  ls
+  432  mv intltool-update intltool-update.old
+  433  ls
+  434  ln -s $(which intltool-update) intltool-update 
+  435  ls
+  436  cd ../../
+  437  cd ../../../
+  438  ls
+  439  cd ..
+  440  ls
+  441  make outputs/starkl-b2264-default/images
+  442  sudo apt-get install intltool
+  443  clear
+  444  sudo apt-get update
+  445  sudo apt-get upgrade 
+  446  cd outputs/starkl-b2264-default/buildroot/host/usr/bin/
+  447  ls -al
+  448  ls /usr/bin/intltool
+  449  ls /usr/bin/
+  450  ls /usr/bin/intltool-update 
+  451  clear
+  452  ls -al
+  453  clear
+  454  cd ../../../../
+  455  ls
+  456  cd ..
+  457  ls
+  458  cd ..
+  459  ls
+  460  clear
+  461  ls
+  462  make outputs/starkl-b2264-default/images
+  463  ping 192.168.1.133
+  464  ls outputs/starkl-b2264-default/images/
+  465  ls -al
+  466  ls -al outputs/starkl-b2264-default/images/
+  467  cd outputs/starkl-b2264-default/images/
+  468  ls
+  469  ls -al
+  470  more kernel.conf 
+  471  ls
+  472  dd if="${KERNEL_ZIMAGE}" skip=${KERNEL_OFFSET} iflag=skip_bytes \ | gzip -d \ | gzip -9 \ > "${KERNEL_IMAGE}"
+  473  dd if="zImage" skip=${KERNEL_OFFSET} iflag=skip_bytes \ | gzip -d \ | gzip -9 \ > "Image.gz"
+  474  ls -al
+  475  clear
+  476  mkimage -f kernel.conf kernel.fit
+  477  cd ../../../
+  478  ls
+  479  ./make_fit_image.sh 
+  480  cd outputs/starkl-b2264-default/images/
+  481  ls
+  482  ls -al
+  483  sudo apt install mkimage
+  484  whereis mkimage
+  485  mkimage -f sdk2-dt.dtb kernel.fit
+  486  sudo apt-install u-boot-tools
+  487  sudo apt install u-boot-tools
+  488  u-boot-tools
+  489  whereis uboot-tools
+  490  whereis u-boot-tools
+  491  sudo apt-get install device-tree-compiler
+  492  clear
+  493  cd ../../.../
+  494  cd ../../..
+  495  ls
+  496  ./make_fit_image.sh 
+  497  ls outputs/starkl-b2264-default/images/
+  498  clear
+  499  lsusb
+  500  lblk
+  501  lsblk
+  502  fdisk /dev/sde 
+  503  sudo fdisk /dev/sde 
+  504  lsblk
+  505  mkfs.vfat /dev/sde1 
+  506  sudo mkfs.vfat /dev/sde1 
+  507  ls /mnt/
+  508  mkdir ./mnt/
+  509  ls
+  510  ls -al
+  511  ls
+  512  ls mnt
+  513  clear
+  514  mount /dev/sde1 ./mnt/ -o uid=$(id -u),gid=$(id -g)
+  515  sudo mount /dev/sde1 ./mnt/ -o uid=$(id -u),gid=$(id -g)
+  516  ls mnt
+  517  cat <<"EOF" >./mnt/uenv.txt
+  518  bootcmd=fatload ${bootdev} 0:1 0x98000000 kernel.fit; bootm 0x98000000;
+  519  EOF
+  520  more mnt/uenv.txt 
+  521  clear
+  522  cp outputs/starkl-b2264-default/images/kernel.fit ./mnt/
+  523  ls mnt/
+  524  unmount ./mnt/
+  525  umount ./mnt/
+  526  sudo umount ./mnt/
+  527  ls ./mnt/
+  528  sync
+  529  lsblk
+  530  ping 192.168.1.133
+  531  ssh root@192.168.1.133
+  532  ssh-keygen -f "/home/dansteer/.ssh/known_hosts" -R "192.168.1.133"
+  533  ssh root@192.168.1.133
+  534  ping 192.168.1.133
+  535  ssh-keygen -f "/home/dansteer/.ssh/known_hosts" -R "192.168.1.133"
+  536  ssh root@192.168.1.133
+  537  ssh-keygen -f "/home/dansteer/.ssh/known_hosts" -R "192.168.1.133"
+  538  ssh root@192.168.1.133
+  539  cd Downloads/
+  540  ls
+  541  rm intltool-0.35.5.tar.bz2 
+  542  ls
+  543  rm -r intltool-0.35.0 && rm -r intltool-0.35.5
+  544  ls
+  545  rm -r intltool-0.50.2
+  546  ls
+  547  rm intltool-0.50.2.tar.gz && rm intltool_0.35.0.orig.tar.gz 
+  548  clear
+  549  ls
+  550  tar -xf licensed.tgz 
+  551  ls
+  552  cd tarballs/
+  553  ls
+  554  clear
+  555  ls
+  556  cd ../../attempt_3/
+  557  cd starkl-4kopen-v1.0.0/
+  558  ls
+  559  make outputs/starkl-b2264-default/images
+  560  ls ../../Downloads/licensed.tgz 
+  561  ls ../../Downloads/tarballs/
+  562  cp ../../Downloads/tarballs/analog-firmware-1.9.0.tar.gz tarballs/
+  563  ls tarballs/
+  564  clear
+  565  make outputs/starkl-b2264-default/images
+  566  ls /home/dansteer/Downloads/tarballs/
+  567  cp /home/dansteer/Downloads/tarballs/audio-apiheaders-38.3.0.20-2.tar.gz tarballs/
+  568  make outputs/starkl-b2264-default/images
+  569  ls /home/dansteer/Downloads/tarballs/
+  570  cp /home/dansteer/Downloads/tarballs/audio-firmware-38.3.0.24-4.tar.gz tarballs/
+  571  make outputs/starkl-b2264-default/images
+  572  ls /home/dansteer/Downloads/tarballs/
+  573  cp /home/dansteer/Downloads/tarballs/fdma-firmware-20140320-14.3.tar.gz tarballs/
+  574  make outputs/starkl-b2264-default/images
+  575  ls /home/dansteer/Downloads/tarballs/
+  576  cp /home/dansteer/Downloads/tarballs/hades-firmware-hades4.16.tar.gz tarballs/
+  577  make outputs/starkl-b2264-default/images
+  578  cp /home/dansteer/Downloads/tarballs/lpm-firmware-2.0.18.tar.gz tarballs/
+  579  make outputs/starkl-b2264-default/images
+  580  cp /home/dansteer/Downloads/tarballs/video-apiheaders-hades4.16.tar.gz tarballs/
+  581  make outputs/starkl-b2264-default/images
+  582  cp /home/dansteer/Downloads/tarballs/pti-firmware-2.99.14.tar.gz tarballs/
+  583  make outputs/starkl-b2264-default/images
+  584  cp /home/dansteer/Downloads/tarballs/video-firmware-hades4.16.tar.gz tarballs/
+  585  make outputs/starkl-b2264-default/images
+  586  ls outputs/starkl-b2264-default/images/
+  587  cd ..
+  588  ls
+  589  ls ..
+  590  rm -r ../starkl-4kopen-default/
+  591  ls
+  592  ls ..
+  593  cd ..
+  594  ls
+  595  cp -r attempt_3 BUILD_COMPLETE
+  596  cd BUILD_COMPLETE/
+  597  ls
+  598  cd ..
+  599  ls
+  600  tar -czvf starkl-4kopen-completed-build.tar.gz BUILD_COMPLETE
+  601  ls
+  602  ls -l
+  603  ls BUILD_COMPLETE/
+  604  rm BUILD_COMPLETE/starkl-4kopen-v1.0.0.tar.bz2 
+  605  rm starkl-4kopen-completed-build.tar.gz 
+  606  tar -czvf starkl-4kopen-completed-build.tar.gz BUILD_COMPLETE
+  607  lsusb
+  608  lsblk
+  609  sudo apt install binwalk u-boot-tools
+  610  ls
+  611  cd attempt_3/
+  612  cd starkl-4kopen-v1.0.0/
+  613  ls
+  614  cp /home/dansteer/Downloads/make_fit_image.sh .
+  615  clear
+  616  ls
+  617  ls -al
+  618  chmod 755 make_fit_image.sh 
+  619  ls -al
+  620  ls
+  621  ./make_fit_image.sh 
+  622  ls outputs/starkl-b2264-default/images/
+  623  more make_fit_image.sh 
+  624  clear
+  625  ./make_fit_image.sh 
+  626  more make_fit_image.sh 
+  627  subl make_fit_image.sh 
+  628  clear
+  629  ls
+  630  ls outputs/
+  631  ssh-keygen -f "/home/dansteer/.ssh/known_hosts" -R "192.168.1.133"
+  632  ssh root@192.168.1.133
+  633  lsblk
+  634  ls /media/dansteer/0403-0201/
+  635  clear
+  636  lsblk
+  637  sudo umount /dev/sdd1 
+  638  pid
+  639  lsblk
+  640  fdisk /dev/sdd
+  641  sudo fdisk /dev/sdd
+  642  lsblk
+  643  clear
+  644  sudo mkfs.vat /dev/sdd1 
+  645  mkfs.vfat /dev/sdd1 
+  646  sudo mkfs.vfat /dev/sdd1 
+  647  ls
+  648  cd attempt_3/
+  649  cd starkl-4kopen-v1.0.0/
+  650  ls
+  651  sudo mount /dev/sdd1 ./mnt/ -o uid=$(id -u),gid=$(id -g)
+  652  cat <<"EOF" >./mnt/uenv.txt
+  653  bootcmd=fatload ${bootdev} 0:1 0x98000000 kernel.fit; bootm 0x98000000;
+  654  EOF
+  655  cp outputs/starkl-b2264-default/images/kernel.fit /mnt/
+  656  sudo cp outputs/starkl-b2264-default/images/kernel.fit /mnt/
+  657  ls ./mnt/
+  658  sudo cp outputs/starkl-b2264-default/images/kernel.fit ./mnt/
+  659  ls ./mnt/
+  660  umount ./mnt/
+  661  sudo umount ./mnt/
+  662  sync
+  663  ssh-keygen -f "/home/dansteer/.ssh/known_hosts" -R "192.168.1.133"
+  664  ssh root@192.168.1.133
+  665  ssh-keygen -f "/home/dansteer/.ssh/known_hosts" -R "192.168.1.133"
+  666  ssh root@192.168.1.133
+  667  cd ..
+  668  cp -r attempt_3 starkl-completed-build
+  669  ls
+  670  tar -czvf starkl-completed-build starkl-4kopen-v1.0.0-built.tar.gz 
+  671  tar -czvf starkl-4kopen-v1.0.0-built.tar.gz starkl-completed-build
+  672  cd Downloads/
+  673  ls
+  674  sudo apt-get install openvpn
+  675  sudo openvpn --config ESDGENERIC.ovpn 
+  676  ssh hmarcks@192.168.0.22
+  677  ssh dsteer@192.168.0.22
+  678  ssh hmarcks@192.168.0.22
+  679  nmcli
+  680  ssh hmarcks@192.168.0.22
+  681  sudo openvpn --config ESDGENERIC.ovpn &
+  682  ps -ef 
+  683  sudo openvpn --config ESDGENERIC.ovpn
+  684  cd Downloads/
+  685  sudo openvpn --config ESDGENERIC.ovpn
+  686  clear
+  687  cd ../../
+  688  ls
+  689  cd dansteer/attempt_3/starkl-4kopen-v1.0.0/
+  690  ls
+  691  cd outputs/starkl-b2264-default/buildroot/
+  692  ls
+  693  find . -name .config
+  694  cd build/
+  695  ls
+  696  clear
+  697  find . -name .config
+  698  mor linux-3.10.92/.config
+  699  more linux-3.10.92/.config
+  700  clear
+  701  cd ../../../../
+  702  ls
+  703  ls tarballs/
+  704  clear
+  705  ls /home/dansteer/Downloads/
+  706  ls
+  707  ls tarballs/
+  708  ls /home/dansteer/Downloads/
+  709  cp /home/dansteer/Downloads/linux-4.18.14.tar.xz tarballs/
+  710  ls
+  711  ls -al 
+  712  make menuconfig 
+  713  clear
+  714  which lex
+  715  which flex
+  716  sudo apt install lex
+  717  sudo apt install flex
+  718  clear
+  719  okular man
+  720  okular manual.pdf 
+  721  make menuconfig 
+  722  sudo apt-get install $(make list-required-dependencies)
+  723  sudo apt-get install $(make list-required-debian-packages)
+  724  make menuconfig 
+  725  clear
+  726  mkdir outputs/starkl-b2264-custom
+  727  ls outputs/
+  728  mkdir outputs/starkl-b2264-custom/images
+  729  make outputs/starkl-b2264-custom/images custom-linux=/home/dansteer/attempt_3/starkl-4kopen-v1.0.0/tarballs/linux-4.18.14.tar.xz 
+  730  make outputs/starkl-custom/images custom-linux=/home/dansteer/attempt_3/starkl-4kopen-v1.0.0/tarballs/linux-4.18.14.tar.xz 
+  731  la outputs/
+  732  mAKE MENUCONFIG
+  733  make menuconfig
+  734  make outputs/starkl-custom/images custom-linux=/home/dansteer/attempt_3/starkl-4kopen-v1.0.0/tarballs/linux-4.18.14.tar.xz 
+  735  ls configs
+  736  cp configs/starkl-custom.config configs/caps.config
+  737  make outputs/baps/images custom-linux=/home/dansteer/attempt_3/starkl-4kopen-v1.0.0/tarballs/linux-4.18.14.tar.xz 
+  738  mkdir -p outputs baps/images
+  739  make outputs/baps/images custom-linux=/home/dansteer/attempt_3/starkl-4kopen-v1.0.0/tarballs/linux-4.18.14.tar.xz 
+  740  make outputs/starkl-custom/images custom-linux=/home/dansteer/attempt_3/starkl-4kopen-v1.0.0/tarballs/linux-4.18.14.tar.xz 
+  741  ls tarballs
+  742  make outputs/starkl-custom/images custom-linux=/home/dansteer/attempt_3/starkl-4kopen-v1.0.0/tarballs/linux-4.18.14.tar.xz 
+  743  ls /home/dansteer/attempt_3/starkl-4kopen-v1.0.0/tarballs/linux-4.18.14.tar.xz
+  744  ls /home/dansteer/attempt_3/starkl-4kopen-v1.0.0/tarballs/linux-4.18.14.tar.xz -AL
+  745  ls /home/dansteer/attempt_3/starkl-4kopen-v1.0.0/tarballs/linux-4.18.14.tar.xz -al
+  746  chmod 777 /home/dansteer/attempt_3/starkl-4kopen-v1.0.0/tarballs/linux-4.18.14.tar.xz -al
+  747  chmod 777 /home/dansteer/attempt_3/starkl-4kopen-v1.0.0/tarballs/linux-4.18.14.tar.xz
+  748  make outputs/starkl-custom/images custom-linux=/home/dansteer/attempt_3/starkl-4kopen-v1.0.0/tarballs/linux-4.18.14.tar.xz 
+  749  xz
+  750  xz tarballs/linux-4.18.14.tar.xz
+  751  xz -d tarballs/linux-4.18.14.tar.xz
+  752  tar -xf tarballs/linux-4.18.14.tar
+  753  ls
+  754  mv linux-4.18.14/ tarballs/
+  755  make outputs/starkl-custom/images custom-linux=/home/dansteer/attempt_3/starkl-4kopen-v1.0.0/tarballs/linux-4.18.14
+  756  ls
+  757  ls outputs/starkl-b2264-custom/
+  758  ls outputs/starkl-b2264-custom/images/
+  759  find . -name arch
+  760  make outputs/starkl-custom/images custom-linux=/home/dansteer/attempt_3/starkl-4kopen-v1.0.0/tarballs/linux-4.18.14
+  761  more tarballs/linux-4.18.14/
+  762  la tarballs/linux-4.18.14/
+  763  more tarballs/linux-4.18.14/arch/arm/boot/dts/
+  764  ls tarballs/linux-4.18.14/arch/arm/boot/dts/
+  765  make outputs/starkl-custom/images custom-linux=/home/dansteer/attempt_3/starkl-4kopen-v1.0.0/tarballs/linux-4.18.14
+  766  more tarballs/linux-4.18.14/arch/arm/boot/dts/sdk2_s
+  767  ls tarballs/linux-4.18.14/arch/arm/boot/dts/
+  768  ls
+  769  ls misc
+  770  ls
+  771  cd tarballs/
+  772  ls
+  773  pwd
+  774  git clone https://gitlab.com/dansteer/parallel-computing
+  775  ls
+  776  mkdir starkl-zips
+  777  ls
+  778  mv starkl-4kopen-completed-build.tar.gz starkl-zips/
+  779  mv starkl-4kopen-v1.0.0-built.tar.gz starkl-zips/
+  780  ls
+  781  mv starkl-4kopen-v1.0.0.tar.bz2 starkl-zips/
+  782  ls
+  783  clear
+  784  ls
+  785  cd parallel-computing/
+  786  ls
+  787  git init 
+  788  ls
+  789  clear
+  790  ls
+  791  mkdir open_mp
+  792  mv open_mp week4_open_mp
+  793  ls
+  794  cd week_4
+  795  ls
+  796  cd week4_open_mp/
+  797  touch example_open_mp.c
+  798  subl example_open_mp.c 
+  799  clear
+  800  gcc example_open_mp.c example_open_mp
+  801  gcc example_open_mp.c 
+  802  clear
+  803  gcc example_open_mp.c 
+  804  clear
+  805  gcc example_open_mp.c 
+  806  ls
+  807  gcc example_open_mp.c 
+  808  mv /home/dansteer/Downloads/grades.txt .
+  809  ls
+  810  gcc example_open_mp.c 
+  811  gcc example_open_mp.c -fopenmp
+  812  ls 
+  813  ./a.out 
+  814  git add example_open_mp.c 
+  815  git commit -m "The example program compiles"
+  816  touch week_serial.c
+  817  subl week_serial.c 
+  818  ls
+  819  gcc -v
+  820  history
+  821  history > history.txt
