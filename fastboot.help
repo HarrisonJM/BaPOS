@@ -1,0 +1,4 @@
+  191  gunzip rpb-desktop-image-dragonboard-410c.ext4.gz 
+  192  sudo fastboot flash boot boot-dragonboard-410c.img 
+  205  sudo fastboot flash boot boot-dragonboard-410c.img 
+  207  sudo fastboot flash rootfs rpb-desktop-image-dragonboard-410c.ext4 
